@@ -1,0 +1,85 @@
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#maintitlebox {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    background-color: rgb(59, 89, 152);
+}
+
+#maintitle {
+    padding-left: 30px;
+    width: 200px;
+    height: 60px;
+    color: white;
+}
+
+#buttonOne {
+    padding-top: 20px;
+    color: white;
+}
+
+#buttonTwo {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+#buttonThree {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+#buttonFour {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+#buttonFive {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+#buttonSix {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+#reset {
+    width: 100%;
+    height: 120px;
+    clear: both;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#mainBox {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    width: 1000px;
+    height: 500px;
+}
