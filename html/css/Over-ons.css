@@ -55,15 +55,6 @@ body {
     height: 25px;
 }
 
-#reset {
-    margin: 0px;
-    width: 20%;
-}
-
-#reset2 {
-    width: 40px;
-}
-
 .buttons {
     padding-left: 20px;
     padding-top: 15px;
@@ -73,13 +64,10 @@ body {
 
 }
 
-#imgOne {
+#imgBox {
     display: flex;
     justify-content: center;
-}
-
-#imgTwo {
-    justify-content: center;
+    align-items: center;
 }
 
 #footer {
